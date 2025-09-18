@@ -86,7 +86,7 @@ The length header uses **4 bytes (32-bit)**, meaning the maximum storable size i
 
 ## License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ---
 
