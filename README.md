@@ -61,9 +61,7 @@ The length header uses **4 bytes (32-bit)**, meaning the maximum storable size i
 ## System Requirements
 
 - **Tested on:** Windows 10 (64-bit)  
-- Should also run on Windows 11 (64-bit).  
-- Compatibility with Windows 7 is **not tested**.  
-
+- **Minimum RAM**: 4 GB (8 GB recommended for large images)
 ---
 
 ## Download & Run
