@@ -73,6 +73,11 @@ The length header uses **4 bytes (32-bit)**, meaning the maximum storable size i
 
 ---
 
+### Video Guide
+[YouTube Tutorial](https://youtu.be/Kz2e-Vu8D8c)
+
+---
+
 ## Built With
 
 - Python 3.1 (64-bit)  
