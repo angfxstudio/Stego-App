@@ -19,7 +19,8 @@ This makes the hidden data very hard to detect or extract without authorization.
 
 ### Analysis & Logging
 The app records spiral coordinate traversal and common errors into a log file.  
-If you encounter errors or bugs, please report them via email: **hersaputrayoda@gmail.com**
+If you encounter errors or bugs, please report them via **email: hersaputrayoda@gmail.com** or **[GitHub Issues](https://github.com/yoda24/Stego-App/issues)**.
+
 
 ---
 
