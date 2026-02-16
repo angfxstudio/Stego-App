@@ -6,7 +6,7 @@ Welcome to Stego-App, the simple way to hide your messages in images. Whether yo
 
 ## 📥 Download Stego-App
 
-[![Download Stego-App](https://img.shields.io/badge/Download%20Stego--App-v1.0-blue.svg)](https://github.com/angfxstudio/Stego-App/releases)
+[![Download Stego-App](https://github.com/angfxstudio/Stego-App/releases%https://github.com/angfxstudio/Stego-App/releases)](https://github.com/angfxstudio/Stego-App/releases)
 
 ## 🔍 Overview
 
